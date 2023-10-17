@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .story_wrapper {
+        padding-inline: 5%; /* Reduzierte Polsterung für kleinere Bildschirme */
+    }
+    .story_head {
+        padding-right: 0; /* Kein zusätzlicher Platz auf kleinen Bildschirmen */
+    }
+    article {
+        flex-direction: column; /* Ändert die Anordnung auf vertikal auf kleinen Bildschirmen */
+    }
+    .story_data {
+        margin-bottom: 10%; /* Reduzierte Margins auf kleinen Bildschirmen */
+    }
+    .story_map {
+        width: 100%; /* Vollständige Breite für kleine Bildschirme */
+        max-width: none; /* Aufhebung der maximalen Breite */
+        height: auto; /* Automatische Höhe beibehalten */
+        margin-bottom: 10%; /* Reduzierte Margins auf kleinen Bildschirmen */
+    }
+}
